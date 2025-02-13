@@ -9,7 +9,7 @@ st.set_page_config(page_title='Prediction of Disease Outbreaks',
                    page_icon="🧑‍⚕️")
 
 # Loading the models
-diabetes_model = pickle.load(open(r"C:\Users\viraj\Documents\AICT internship1\savedfiles\ diabetes_model.sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\viraj\Documents\AICT internship1\savedfiles\diabetes_model.sav", 'rb'))
 heart_disease_model = pickle.load(open(r"C:\Users\viraj\Documents\AICT internship1\savedfiles\ heartdisease_model.sav", 'rb'))
 parkinsons_model = pickle.load(open(r"C:\Users\viraj\Documents\AICT internship1\savedfiles\ parkinsons_model.sav", 'rb'))
 
